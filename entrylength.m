@@ -1,3 +1,5 @@
+%Plots Hydro-dynamic entry length against the Reynolds Number [MATLAB]
+
 syms HelLamLam(Re) HelTur(Re); %Hydrodynamic Entry length
 HelLam(Re) = .05*Re;
 HelTur(Re) = 1.359*Re^(1/4);
